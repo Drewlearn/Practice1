@@ -52,3 +52,5 @@ related to a project. It keeps track of the changes made over time.
          - retreiving changes from a remote repo and merges them into your local repo
 *git clone
            - creating a copy of a remote repo on your local machine
+
+KAYA PA
