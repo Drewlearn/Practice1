@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Seymour One", sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion_140725-72203.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+}
+
+
+
+.contact{
+    font-size: 15px;
+}
+.fa-solid ,.fa-square-phone{
+    font-size: 14px;
+}
+
+#nav-bar{
+
+   }
+
+#header-img{
+    width: 120px;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.searchContainer{
+    padding: 5px;
+    padding-bottom: 10px;
+   
+}
+.foodguide{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.fresh{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.foodInspired{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+#food-video{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
+.menu-email{
+    max-width: 300px;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.e-submit{
+    padding-bottom: 20px;
+}
+
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.package{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 5px solid burlywood;
+    margin: 20px;
+    width: calc(100% / 3);
+    border-radius: 15px;
+}
+
+ol{
+    margin: 28px;
+}
+
+li{
+    padding: 10px;
+}
+
+.btn{
+    background-color: brown;
+    font-size: 1.5rem;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        background-image: url('https://img.freepik.com/free-photo/top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion_140725-72203.jpg');
+        flex-wrap: wrap;
+    }
+}
